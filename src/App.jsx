@@ -88,7 +88,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <main className="relative flex flex-col items-center justify-center min-h-screen pt-8 pb-32 px-6 text-center">
+      <main className="relative flex flex-col items-center justify-center min-h-[calc(100vh-80px)] pb-20 px-6 text-center">
         
         {/* Label Kecil dengan Animasi */}
         <motion.div 
