@@ -105,7 +105,7 @@ function App() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tighter leading-[0.9]"
+          className="text-3xl md:text-5xl lg:text-7xl font-medium tracking-tighter leading-[0.9]"
         >
           Little Pieces, <br />
           <span className="font-serif italic text-slate-400 font-light">One Big </span> 
@@ -124,7 +124,7 @@ function App() {
         >
           Hi, I'm <span className="text-pink-400 font-serif italic font-medium">Esterlita.</span><br /><br />
           A <span className="text-slate-600 font-medium italic">student of life</span>, gathering little pieces of inspiration and turning them into
-          <span classname="text-slate-600 font-medium">something meaningful.</span>
+          <span classname="text-slate-600 font-medium"> something meaningful.</span>
           <br /><br />
           I believe every project is a <span className="text-pink-300/80 font-medium">gift</span>, and I'm here to build things that reflect a 
           <span className="text-slate-600 font-medium italic underline decoration-pink-200 underline-offset-4"> much bigger design</span>.
