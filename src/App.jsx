@@ -88,7 +88,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <main className="relative flex flex-col items-center justify-center min-h-[90vh] pt-24 pb-32 px-6 text-center">
+      <main className="relative flex flex-col items-center justify-center min-h-screen pt-8 pb-32 px-6 text-center">
         
         {/* Label Kecil dengan Animasi */}
         <motion.div 
@@ -108,7 +108,7 @@ function App() {
           className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tighter leading-[0.9]"
         >
           Little Pieces, <br />
-          <span className="font-serif italic text-slate-400 font-light">One Big</span> 
+          <span className="font-serif italic text-slate-400 font-light">One Big </span> 
           <motion.span
             whileHover={{ scale: 1.1, color: "#F472B6",
               textShadow: "0px 0px 8px rgba(244, 114, 182, 0.6)"}} 
@@ -147,19 +147,19 @@ function App() {
           </button>
         </motion.div>
               {/* Scroll Indicator - Taruh di bawah tombol Explore */}
-<motion.div 
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ delay: 1.5, duration: 1 }}
-  className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5, duration: 1 }}
+          className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
 >
   {/* Tulisan kecil banget */}
   <span className="text-[8px] uppercase tracking-[0.4em] text-slate-300 font-bold">
     Scroll
   </span>
   
-  {/* Garis yang gerak animasinya (Napas) */}
-  <div className="w-px h-12 bg-linear-to-b from-pink-200 to-transparent relative overflow-hidden">
+  {/* Garis yang gerak animasinya */}
+  <div className="w-px h-8 bg-linear-to-b from-pink-200 to-transparent relative overflow-hidden">
     <motion.div 
       animate={{ 
         y: [0, 48, 0], // Gerak dari atas ke bawah terus balik lagi
