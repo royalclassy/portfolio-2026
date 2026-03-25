@@ -88,7 +88,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <main className="relative flex flex-col items-center justify-center min-h-[calc(100vh-80px)] pb-20 px-6 text-center">
+      <main className="relative flex flex-col items-center justify-center min-h-[90vh] pt-4 pb-20 px-6 text-center overflow-hidden">
         
         {/* Label Kecil dengan Animasi */}
         <motion.div 
@@ -124,7 +124,7 @@ function App() {
         >
           Hi, I'm <span className="text-pink-400 font-serif italic font-medium">Esterlita.</span><br /><br />
           A <span className="text-slate-600 font-medium italic">student of life</span>, gathering little pieces of inspiration and turning them into
-          <span classname="text-slate-600 font-medium"> something meaningful.</span>
+          <span className="text-slate-600 font-medium"> something meaningful.</span>
           <br /><br />
           I believe every project is a <span className="text-pink-300/80 font-medium">gift</span>, and I'm here to build things that reflect a 
           <span className="text-slate-600 font-medium italic underline decoration-pink-200 underline-offset-4"> much bigger design</span>.
@@ -151,7 +151,7 @@ function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 1 }}
-          className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
+          className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
 >
   {/* Tulisan kecil banget */}
   <span className="text-[8px] uppercase tracking-[0.4em] text-slate-300 font-bold">
