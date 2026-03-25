@@ -1,0 +1,24 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar biar makin Aesthetic */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #FDF6F0; /* Warna background creamy kamu */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #F9A8D4; /* Warna pink-300 */
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F472B6; /* Warna pink-400 pas di-hover */
+  }
