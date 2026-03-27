@@ -16,7 +16,7 @@ export const projects = [
       title: "Project Management - Agriwebb",
       year: "2025-2026",
       category: "digital",
-      desc: "Managing daily task flows and direct client coordination via Asana for Agriwebb Australia. I oversee sprint alignment across time zones and act as the final gatekeeper through comprehensive QA/UAT across multiple environments, ensuring seamless feature releases.",
+      desc: "Managing project lifecycles and client coordination for Agriwebb Australia. I ensure seamless sprint alignment and feature releases by adapting to dynamic client needs, while maintaining high standards through QA across multiple environments.",
       tech: "Project Management · QA Testing · Client Coordination",
       url: "https://www.agriwebb.com",
       image: "/images/kororo-agriwebb.png"
@@ -26,7 +26,7 @@ export const projects = [
       title: "Sweetly Yours",
       year: "2025-PRESENT",
       category: "art",
-      desc: "A self-managed baking venture where I oversee the entire product lifecycle, from sourcing ingredients and meticulous recipe R&D to financial pricing and branding. This project is a testament to my dedication to quality and the joy of building a brand from the ground up, one small batch at a time.",
+      desc: "Sharing the joy of home-baked treats through Sweetly Yours. I handle everything behind the scenes—from kitchen R&D to branding—focusing on quality and the simple pleasure of making something people love to eat.",
       tech: "Founder · R&D · Financial Planning · Branding",
       linkText: "View on Instagram",
       url: "https://instagram.com/sweetlyours.id",
