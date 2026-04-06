@@ -7,7 +7,6 @@ function ProjectCard({ project, onSelect }) {
   const [isError, setIsError] = useState(false);
 
   return (
-    
     <motion.div 
       layout
       onClick={() => onSelect(project)}
@@ -88,7 +87,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <main className="relative flex flex-col items-center justify-center min-h-[90vh] pt-4 pb-20 px-6 text-center overflow-hidden">
+      <main className="relative flex flex-col items-center justify-center min-h-[90vh] pt-20 pb-32 px-6 text-center overflow-hidden">
         
         {/* Label Kecil dengan Animasi */}
         <motion.div 
@@ -151,7 +150,7 @@ function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 1 }}
-          className="absolute bottom-8 md:bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
+          className="absolute bottom-4 left-0 right-0 flex flex-col items-center gap-2 z-20 pointer-events-none"
 >
   {/* Tulisan kecil banget */}
   <span className="text-[8px] uppercase tracking-[0.4em] text-slate-300 font-bold">
@@ -159,17 +158,17 @@ function App() {
   </span>
   
   {/* Garis yang gerak animasinya */}
-  <div className="w-px h-8 bg-linear-to-b from-pink-200 to-transparent relative overflow-hidden">
+  <div className="w-px h-10 bg-slate-100 from-pink-200 to-transparent relative overflow-hidden">
     <motion.div 
       animate={{ 
-        y: [0, 48, 0], // Gerak dari atas ke bawah terus balik lagi
+        y: [-40, 40], // Gerak dari atas ke bawah terus balik lagi
       }}
       transition={{ 
         duration: 2, 
         repeat: Infinity, 
         ease: "easeInOut" 
       }}
-      className="absolute top-0 left-0 w-full h-1/3 bg-pink-400"
+      className="absolute top-0 left-0 w-full h-1/2 bg-pink-400"
     />
   </div>
 </motion.div>
