@@ -3,6 +3,16 @@ import { link } from "framer-motion/client";
 export const projects = [
   {
       id: 1,
+      title: "Developer Portfolio - Freelance Project",
+      year: "2026",
+      category: "digital",
+      desc: "Designed a premium high-tech landing page for a Senior Web Developer to showcase their technical arsenal and live projects. Focused on creating a powerful visual identity using a structured Bento Grid layout, monospace typography, and terminal-style indexing that resonates with the tech community. (Client identity anonymized for privacy).",
+      tech: "UI/UX Design · Web Layout · Visual Identity · Figma",
+      url: "https://www.behance.net/gallery/250451487/Developer-Portfolio-Web-Design",
+      image: "/images/developer-portfolio.png"
+  },
+  {
+      id: 2,
       title: "Project Management - ANMM Australia",
       year: "2025-2026",
       category: "digital",
@@ -12,7 +22,7 @@ export const projects = [
       image: "/images/kororo-anmm.png"
     },
     {
-      id: 2,
+      id: 3,
       title: "Project Management - Agriwebb",
       year: "2025-2026",
       category: "digital",
@@ -22,7 +32,7 @@ export const projects = [
       image: "/images/kororo-agriwebb.png"
     },
     {
-      id: 3,
+      id: 4,
       title: "Sweetly Yours",
       year: "2025-PRESENT",
       category: "art",
@@ -33,7 +43,7 @@ export const projects = [
       image: "/images/sweetlyyours.png"
     },
     {
-      id: 4,
+      id: 5,
       title: "Lab & Classroom Reservation - UPNVJ",
       year: "2024-2025",
       category: "digital",
@@ -44,7 +54,7 @@ export const projects = [
       image: "/images/upnvj-lab.png"
     },
     {
-      id: 5,
+      id: 6,
       title: "Training Management System - BNC",
       year: "2023",
       category: "digital",
